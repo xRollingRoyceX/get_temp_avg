@@ -9,7 +9,7 @@
 
 double get_tem_avg(vector<double> &temps) {
     double cnt = 0;
-    for (decltype(temps.size()) i = 0; i != temps.size(); ++i, ++cnt) {
+    for (decltype(temps.size()) i = 0; i != temps.size(); ++i) {
        cnt += temps[i];
     }
     return cnt/temps.size(); 
